@@ -7,7 +7,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  border: 1px solid #020221;
+  padding: 5px;
+}
+
+#summary p{
+  display: flex;
+  justify-content: space-between;
+}
+
+#buttons {
+  justify-content: center;
+}
+
+#form-summary-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+table {
+  padding: 10px;
+  margin: 10px auto;
+}
+
+table tr {
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid black;
+  padding: 10px;
 }
